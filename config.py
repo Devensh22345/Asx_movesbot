@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6977991334"))
 PORT = os.environ.get("PORT", "8006")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kitagawafile:kitagawafile@cluster0.xxfr5u6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://devenshkumar0753:Devenshk03@cluster0.kw2mbxf.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\nI am kitagawa Advance file share bot for anything everything for your inner peace 😈.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>  𝗔𝗻𝗶𝗺𝗲 𝗶𝗻 𝗛𝗶𝗻𝗱𝗶 👇👇\nHTTPS://T.ME/+2FSV4NZHVOS2OGNL\nHTTPS://T.ME/+2FSV4NZHVOS2OGNL\n\n  𝗔𝗻𝗶𝗺𝗲 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽 👇👇\nHTTPS://T.ME/DKANIME_GROUP\nHTTPS://T.ME/DKANIME_GROUP\n\n  𝗔𝗱𝘂𝗹𝘁 𝗔𝗻𝗶𝗺𝗲 𝗶𝗻 𝗵𝗶𝗻𝗱𝗶 [𝟭𝟴+] 😍👇👇\nhttps://t.me/+X-vfMcD-GkY3MzQ1\nhttps://t.me/+X-vfMcD-GkY3MzQ1</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "7453879429").split()):
