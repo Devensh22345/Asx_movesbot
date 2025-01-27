@@ -89,7 +89,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("18+ Anime 😍", url="https://t.me/+X-vfMcD-GkY3MzQ1"),
-                    InlineKeyboardButton("Anime in Hindi ", url="https://t.me/+KYtbTW-FM1QzM2U1")
+                    InlineKeyboardButton("Anime in Hindi ", url="https://t.me/+2fsV4nzHvOs2OGNl")
                 ]
             ]
         )
